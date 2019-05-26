@@ -1,0 +1,10 @@
+mypy
+python-docx
+nltk
+tika
+spacy
+numpy
+pandas
+gensim
+sklearn
+scipy
