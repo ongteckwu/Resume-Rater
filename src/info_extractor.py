@@ -328,7 +328,7 @@ class InfoExtractor:
                     if not date2_parsed:
                         date2 = datetime.strptime(str(date2), "%Y")
                     date1 = datetime.strptime(str(date1), "%Y")
-                except:
+                except ValueError:
                     pass
             elif "smonth_num" in datepair:
                 date1 = datepair["fmonth_num"]
